@@ -161,11 +161,3 @@ Released under the **MIT License** — free for personal and commercial usage.
 
 ---
 
-# ⭐ Professional Tip  
-If you're showcasing this on GitHub, add:
-- Project banner  
-- Architecture diagram  
-- Screenshots of UI  
-- A short demo video  
-
-I can generate these if you want.
