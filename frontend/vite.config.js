@@ -1,3 +1,4 @@
+// vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -10,10 +11,10 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
-      "/ws": {  // websocket proxy path if needed
+      "/ws": {
         target: "ws://localhost:8000",
         ws: true,
-      },
-    },
-  },
+      }
+    }
+  }
 });
