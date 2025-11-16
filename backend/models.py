@@ -31,3 +31,5 @@ class Message(SQLModel, table=True):
     timestamp: datetime = Field(default_factory=datetime.utcnow)
 
     conversation: Optional[Conversation] = Relationship(back_populates="messages")
+
+
